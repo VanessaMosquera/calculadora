@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+   
+<div class="contenedor">
+    <h1>Calculadora</h1>
+    <input class ="texto" id="number" type="text" value="">
+<div class="operaciones">
+    <input class ="operacion" type="button" value="÷" onclick="operador('/')" ;>
+    <input class ="operacion" type="button" value="×" onclick="operador('*')" ;>
+    <input class ="operacion" type="button" value="-" onclick="operador('-')" ;>
+    <input class ="operacion" type="button" value="+" onclick="operador('+')" ;>
+<div class="operaciones1">
+    <input class ="operacion" type="button" value="%" onclick="porcentaje()" ;>
+    <input class ="operacion" type="button" value="^" onclick="potencia()" ;>
+    <input class ="operacion" type="button" value="√" onclick="raizcua()" ;>
+    <input class ="operacion" type="button" value="AC" onclick="borrartodo()";>
+</div>
+</div>
+<div class="numeros">
+    <input class ="numero" type="button" value="7" onclick="numeros(7)" ;>
+    <input class ="numero" type="button" value="8" onclick="numeros(8)" ;>
+    <input class ="numero" type="button" value="9" onclick="numeros(9)" ;>
+    <input class ="numero" type="button" value="C" onclick="borar()" ;>
+    <br>
+    <div class="numeros1">
+    <input class ="numero" type="button" value="4" onclick="numeros(4)" ;>
+    <input class ="numero" type="button" value="5" onclick="numeros(5)" ;>
+    <input class ="numero" type="button" value="6" onclick="numeros(6)" ;>
+    <input class ="numero" type="button" value="=" onclick="igual()" ;>
+</div>
+<div class="numeros2">
+    <input class ="numero" type="button" value="1" onclick="numeros(1)" ;>
+    <input class ="numero" type="button" value="2" onclick="numeros(2)" ;>
+    <input class ="numero" type="button" value="3" onclick="numeros(3)" ;>
+    <input class ="numero" type="button" value="0" onclick="numeros(0)" ;>
+</div>
+</div>
+</body>
+<script src="calculadora.js"></script>
+</html>

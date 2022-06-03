@@ -1,0 +1,98 @@
+body {
+    
+    background-color: transparent;
+}
+
+.contenedor{
+    background-color: rgb(122, 121, 121);
+    width: 290px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
+    box-shadow: 10px 10px  #43c0d6;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 15;
+    font-family: 'Lobster', cursive;
+    color: #1d181b;
+    font-size: 45px;
+    margin-left: 40px;
+    text-shadow: 4px 4px 4px  #5ba0ac;
+    margin-top: 35px;
+    height: 35px;
+    padding-top: 15px;
+}
+.numero{
+    font-family: cursive;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: #94e3e6;
+    border-radius: 10px;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+}
+.numero:hover{
+background-color: #2790a3;
+color:aliceblue;
+}
+.operacion{
+    font-family: cursive;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: #57ccc6;
+    border-radius: 10px;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+}
+.operacion:hover{
+    background-color: #0a8ea8;
+    color:aliceblue;
+    }
+
+    
+
+.texto{
+    border: #5a2846;
+    border-top: 100px, 100px;
+    border-top: #435048 solid;
+    border-bottom: #435048 solid;
+    border-left: #435048 solid;
+    border-right: #435048 solid;
+    border-radius: 10px;  
+    margin-left: 45px;
+    background-color: #b6d3d1;
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    font-family: cursive;
+    
+}
+.texto:hover{
+    background-color: #0a8ea8;
+    color:aliceblue;
+    font-family: cursive;
+    font-size: 15px;
+    }
+.numeros{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.operaciones{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.numeros1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.operaciones1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
